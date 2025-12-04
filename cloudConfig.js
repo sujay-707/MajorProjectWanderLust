@@ -12,7 +12,7 @@ const storage = new CloudinaryStorage({
   params: {
     folder: 'wanderlust_DEV',
     allowed_formats: ["jpg", "jpeg", "png"],
-    upload_preset: "wanderlust_preset"
+    upload_preset: "ml_default"   // ⭐ Use signed default preset
   },
 });
 
